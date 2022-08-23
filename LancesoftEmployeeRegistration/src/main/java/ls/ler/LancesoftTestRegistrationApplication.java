@@ -6,15 +6,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class LancesoftEmployeeRegistrationApplication extends SpringBootServletInitializer {
+public class LancesoftTestRegistrationApplication extends SpringBootServletInitializer {
 	
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(LancesoftEmployeeRegistrationApplication.class);
+        return builder.sources(LancesoftTestRegistrationApplication.class);
     }
 
 	public static void main(String[] args) {
-		SpringApplication.run(LancesoftEmployeeRegistrationApplication.class, args);
+		SpringApplication.run(LancesoftTestRegistrationApplication.class, args);
 	}
 
 }
