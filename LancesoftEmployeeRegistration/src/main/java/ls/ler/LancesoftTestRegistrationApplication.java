@@ -18,3 +18,4 @@ public class LancesoftTestRegistrationApplication extends SpringBootServletIniti
 	}
 
 }
+
